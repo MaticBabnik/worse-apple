@@ -1,0 +1,13 @@
+#!/bin/sh
+
+#clear the folder
+rm -fr frames
+mkdir frames
+
+#download in mp4 to "video.mp4"
+youtube-dl -f 18 https://www.youtube.com/watch\?v\=FtutLA63Cp8 -o "video.mp4"
+
+#extract frames
+ffmpeg -i video.mp4 -vf "scale=8:6" -r 1 frames/frame_%04d.png
+
+echo done
