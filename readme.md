@@ -15,4 +15,4 @@ Using a word generator, a few shift registers and a lot of patience.
 [Download from archive.org](https://archive.org/details/ElectronicWorkbenchEwb5.12)
 
 
-On modern versions of Windows make sure to set it to compatibility mode (Windows XP or 95 should work) EWB also works quite well in VirtualBox an WINE.
+On modern versions of Windows make sure to set it to compatibility mode (Windows XP or 95 should work) EWB also works quite well in VirtualBox and WINE.
